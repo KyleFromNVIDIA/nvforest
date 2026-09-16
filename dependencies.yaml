@@ -108,10 +108,8 @@ files:
     output: pyproject
     pyproject_dir: python/nvforest
     matrix:
-      use_cuda_wheels:
-        - "true"
-      cuda_suffixed:
-        - "false"
+      use_cuda_wheels: ["true"]
+      cuda_suffixed: ["false"]
     extras:
       table: tool.rapids-build-backend
       key: requires
@@ -127,10 +125,8 @@ files:
     output: pyproject
     pyproject_dir: python/nvforest
     matrix:
-      use_cuda_wheels:
-        - "true"
-      cuda_suffixed:
-        - "false"
+      use_cuda_wheels: ["true"]
+      cuda_suffixed: ["false"]
     extras:
       table: project
     includes:
@@ -143,10 +139,8 @@ files:
     output: pyproject
     pyproject_dir: python/nvforest
     matrix:
-      use_cuda_wheels:
-        - "true"
-      cuda_suffixed:
-        - "false"
+      use_cuda_wheels: ["true"]
+      cuda_suffixed: ["false"]
     extras:
       table: project.optional-dependencies
       key: test
@@ -163,10 +157,8 @@ files:
     output: pyproject
     pyproject_dir: python/libnvforest
     matrix:
-      use_cuda_wheels:
-        - "true"
-      cuda_suffixed:
-        - "false"
+      use_cuda_wheels: ["true"]
+      cuda_suffixed: ["false"]
     extras:
       table: tool.rapids-build-backend
       key: requires
@@ -179,10 +171,8 @@ files:
     output: pyproject
     pyproject_dir: python/libnvforest
     matrix:
-      use_cuda_wheels:
-        - "true"
-      cuda_suffixed:
-        - "false"
+      use_cuda_wheels: ["true"]
+      cuda_suffixed: ["false"]
     extras:
       table: project
     includes:
